@@ -1,0 +1,6 @@
+{
+  "name": "Pro ERP CRM & E-Ticaret",
+  "description": "Profesyonel çok modüllü ERP, CRM, Depo/Stok, Genel Muhasebe, Sipariş Takip, Satın Alma, IK ve Yapay Zeka destekli operasyon yönetim platformu.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

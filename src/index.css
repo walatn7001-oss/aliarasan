@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Dynamic Custom Colors */
+  --color-amber-500: var(--brand-primary);
+  --color-amber-400: var(--brand-primary-hover);
+  --color-amber-200: var(--brand-primary-light);
+  
+  --color-emerald-500: var(--brand-secondary);
+  --color-emerald-400: var(--brand-secondary-hover);
+  --color-emerald-200: var(--brand-secondary-light);
+
+  --color-slate-950: var(--brand-bg);
+  --color-slate-900: var(--brand-sidebar);
+}
+
+/* Theme presets definition */
+:root {
+  --brand-primary: #f97316; /* Radiant Orange */
+  --brand-primary-hover: #ea580c;
+  --brand-primary-light: #ffedd5;
+  
+  --brand-secondary: #ef4444; /* Flame Red */
+  --brand-secondary-hover: #dc2626;
+  --brand-secondary-light: #fee2e2;
+
+  --brand-bg: #070303;
+  --brand-sidebar: #0f0606;
+}
+
+html.theme-magma {
+  --brand-primary: #f97316; 
+  --brand-primary-hover: #ea580c;
+  --brand-primary-light: #ffedd5;
+  
+  --brand-secondary: #ef4444; 
+  --brand-secondary-hover: #dc2626;
+  --brand-secondary-light: #fee2e2;
+
+  --brand-bg: #070303;
+  --brand-sidebar: #0f0606;
+}
+
+html.theme-cosmic {
+  --brand-primary: #a855f7; /* Cosmic Purple */
+  --brand-primary-hover: #9333ea;
+  --brand-primary-light: #f3e8ff;
+  
+  --brand-secondary: #3b82f6; /* Cyan Blue */
+  --brand-secondary-hover: #2563eb;
+  --brand-secondary-light: #dbeafe;
+
+  --brand-bg: #04030a;
+  --brand-sidebar: #0a0614;
+}
+
+html.theme-emerald {
+  --brand-primary: #10b981; /* Matrix Green */
+  --brand-primary-hover: #059669;
+  --brand-primary-light: #d1fae5;
+  
+  --brand-secondary: #06b6d4; /* Dark Cyan */
+  --brand-secondary-hover: #0891b2;
+  --brand-secondary-light: #cffafe;
+
+  --brand-bg: #010403;
+  --brand-sidebar: #030a07;
+}
+
+html.theme-gold {
+  --brand-primary: #f59e0b; /* Golden Amber */
+  --brand-primary-hover: #d97706;
+  --brand-primary-light: #fef3c7;
+  
+  --brand-secondary: #eab308; /* Yellow */
+  --brand-secondary-hover: #ca8a04;
+  --brand-secondary-light: #fef9c3;
+
+  --brand-bg: #090d16;
+  --brand-sidebar: #0c1221;
+}
+
+/* When light mode is active, override background variables */
+html.theme-light-mode {
+  --brand-bg: #f8fafc;
+  --brand-sidebar: #ffffff;
+}
+
+@layer utilities {
+  /* Elegant ambient scrollbars */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(245, 158, 11, 0.2);
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(245, 158, 11, 0.4);
+  }
+}
+
+/* Custom Fiery animations and effects */
+@keyframes flame-pulse {
+  0%, 100% {
+    box-shadow: 0 0 6px rgba(245, 158, 11, 0.3), 0 0 15px rgba(239, 68, 68, 0.1);
+    border-color: rgba(245, 158, 11, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 12px rgba(245, 158, 11, 0.7), 0 0 25px rgba(239, 68, 68, 0.4);
+    border-color: rgba(245, 158, 11, 0.8);
+  }
+}
+
+@keyframes flame-glow-text {
+  0%, 100% {
+    text-shadow: 0 0 3px rgba(245, 158, 11, 0.3);
+  }
+  50% {
+    text-shadow: 0 0 10px rgba(245, 158, 11, 0.8), 0 0 16px rgba(239, 68, 68, 0.5);
+  }
+}
+
+@keyframes rise-up {
+  0% {
+    transform: translateY(100%) scale(0.3);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(-120%) scale(1.2);
+    opacity: 0;
+  }
+}
+
+.fiery-option-glow {
+  position: relative;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.fiery-option-glow:hover {
+  animation: flame-pulse 2s infinite ease-in-out;
+  transform: translateY(-1.5px);
+}
+
+.fiery-title-glow {
+  animation: flame-glow-text 3.5s infinite ease-in-out;
+}
+
+/* Custom flame sparkles */
+.fiery-aura {
+  position: relative;
+}
+
+.fiery-aura::after {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border-radius: inherit;
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.3) 0%, rgba(239, 68, 68, 0.3) 50%, transparent 100%);
+  pointer-events: none;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+  z-index: -1;
+}
+
+.fiery-aura:hover::after {
+  opacity: 1;
+}
+
+/* Custom animated options transitions */
+.flame-sparkle-bg {
+  background-image: radial-gradient(circle at 50% 120%, rgba(245, 158, 11, 0.15) 0%, rgba(239, 68, 68, 0.05) 60%, transparent 100%);
+}
+
+/* Scale texts correctly across iOS / Android / tablets without clipping or line breaks */
+@media (max-width: 768px) {
+  html, body {
+    font-size: 13px !important;
+  }
+  .tablet\\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+
+@media (max-width: 640px) {
+  html, body {
+    font-size: 12px !important;
+  }
+  .title-responsive {
+    font-size: 1.25rem !important;
+    line-height: 1.4 !important;
+  }
+  .sub-responsive {
+    font-size: 0.75rem !important;
+  }
+  .button-responsive {
+    padding: 0.5rem 0.75rem !important;
+    font-size: 0.7rem !important;
+  }
+}
+

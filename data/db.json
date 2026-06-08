@@ -1,0 +1,441 @@
+{
+  "categories": [
+    {
+      "id": "cat-1-1",
+      "name": "Hırdavat & El Aletleri",
+      "parentId": null,
+      "order": 1
+    },
+    {
+      "id": "cat-2-1",
+      "name": "Yapı Kimyasalları",
+      "parentId": null,
+      "order": 2
+    },
+    {
+      "id": "cat-3-1",
+      "name": "Tesisat Malzemeleri",
+      "parentId": null,
+      "order": 3
+    },
+    {
+      "id": "cat-4-1",
+      "name": "Elektrik & Aydınlatma",
+      "parentId": null,
+      "order": 4
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-808582",
+      "code": "321321321",
+      "barcode": "8694189889101",
+      "qrcode": "QR_321321321_9101",
+      "title": "3132131",
+      "brand": "",
+      "model": "",
+      "series": "",
+      "categoryId": "cat-1-1",
+      "subCategoryId": "",
+      "color": "",
+      "size": "",
+      "weight": "",
+      "technicalDetails": "",
+      "description": "",
+      "seoTitle": "",
+      "seoDescription": "",
+      "seoKeywords": "",
+      "price": 321321,
+      "purchasePrice": 3312,
+      "kdv": 30,
+      "discount": 0,
+      "stock": 320,
+      "minStock": 5,
+      "criticalStock": 2,
+      "supplierInfo": "",
+      "images": [
+        "https://images.unsplash.com/photo-1540103711724-ebf833bde8d1?auto=format&fit=crop&q=80&w=600"
+      ],
+      "unit": "Adet"
+    }
+  ],
+  "customers": [
+    {
+      "id": "cust-1",
+      "name": "Murat Yılmaz",
+      "companyName": "Karadeniz Hırdavat Tic. Ltd. Şti.",
+      "taxOffice": "Tuzla",
+      "taxNo": "6290345112",
+      "phone": "0552 884 76 47",
+      "whatsapp": "905528847647",
+      "email": "info@karadenizhirdavat.com",
+      "address": "Tuzla Sanayi Sitesi A Blok No:12, İstanbul",
+      "notes": "Düzenli alım yapan platinum bayi. Ödemeleri aksatmaz.",
+      "debt": 12500,
+      "credit": 0,
+      "riskLimit": 75000,
+      "status": "active",
+      "category": "Bayi"
+    },
+    {
+      "id": "cust-2",
+      "name": "Selin Şahin",
+      "companyName": "Şahinler Yapı Market Sanayi",
+      "taxOffice": "Esenyurt",
+      "taxNo": "7841094857",
+      "phone": "0212 855 44 33",
+      "whatsapp": "902128554433",
+      "email": "muhasebe@sahinleryapi.com",
+      "address": "Cumhuriyet Cad. No:142, Esenyurt, İstanbul",
+      "notes": "Risk limiti yakından takip edilmeli.",
+      "debt": 45000,
+      "credit": 15000,
+      "riskLimit": 50000,
+      "status": "active",
+      "category": "Müşteri"
+    },
+    {
+      "id": "cust-635411",
+      "name": "ali arasan",
+      "companyName": "ali arasan Bireysel Üyelik",
+      "taxOffice": "E-Ticaret Sitesi",
+      "taxNo": "Bireysel",
+      "phone": "05528847647",
+      "whatsapp": "05528847647",
+      "email": "walat.n7001@gmail.com",
+      "address": "E-Ticaret kanalıyla kaydedildi",
+      "notes": "Siteden yeni kayıt olan e-ticaret müşterisi.",
+      "debt": 0,
+      "credit": 0,
+      "riskLimit": 5000,
+      "status": "active",
+      "category": "Müşteri"
+    },
+    {
+      "id": "cust-432390",
+      "name": "ali arasan",
+      "companyName": "ali arasan Bireysel Üyelik",
+      "taxOffice": "E-Ticaret Sitesi",
+      "taxNo": "Bireysel",
+      "phone": "05528847647",
+      "whatsapp": "05528847647",
+      "email": "ruzgar.arasann@gmail.com",
+      "address": "E-Ticaret kanalıyla kaydedildi",
+      "notes": "Siteden yeni kayıt olan e-ticaret müşterisi.",
+      "debt": 0,
+      "credit": 0,
+      "riskLimit": 5000,
+      "status": "active",
+      "category": "Müşteri"
+    },
+    {
+      "id": "cust-customer-default",
+      "name": "khjgfk",
+      "companyName": "khjgfk Şahıs Firması",
+      "taxOffice": "Tuzla",
+      "taxNo": "1111111111",
+      "phone": "0552 884 76 47",
+      "whatsapp": "905528847647",
+      "email": "customer@dalgrup.com",
+      "address": "E-Ticaret portalından giriş yapıldı",
+      "notes": "Müşteri portalından şifresiz giren müşteri.",
+      "debt": 0,
+      "credit": 0,
+      "riskLimit": 50000,
+      "status": "active",
+      "category": "Müşteri"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-8996",
+      "customerId": "cust-customer-default",
+      "customerName": "khjgfk (khjgfk Şahıs Firması)",
+      "customerCategory": "Müşteri",
+      "items": [
+        {
+          "productId": "prod-808582",
+          "productTitle": "3132131",
+          "quantity": 1,
+          "price": 321321
+        }
+      ],
+      "total": 321321,
+      "status": "Teslim Edildi",
+      "date": "2026-06-08T07:08:17.360Z",
+      "trackingNumber": "EXP-685979",
+      "notes": "Banka Havalesi / EFT (İş Bankası (TR56 0006 2000 1234 5678 9012 34))"
+    },
+    {
+      "id": "ord-5603",
+      "customerId": "cust-1",
+      "customerName": "Murat Yılmaz (Karadeniz Hırdavat Tic. Ltd. Şti.)",
+      "customerCategory": "Bayi",
+      "items": [
+        {
+          "productId": "prod-525919",
+          "productTitle": "sanane",
+          "quantity": 1,
+          "price": 9.9
+        },
+        {
+          "productId": "prod-437574",
+          "productTitle": "1",
+          "quantity": 1,
+          "price": 27
+        },
+        {
+          "productId": "prod-488336",
+          "productTitle": "dxzcz",
+          "quantity": 1,
+          "price": 288.90000000000003
+        }
+      ],
+      "total": 325.8,
+      "status": "Beklemede",
+      "date": "2026-06-07T21:26:21.359Z",
+      "trackingNumber": "EXP-538834",
+      "notes": "Banka Havalesi / EFT (Ziraat Bankası (TR12 0001 0000 9876 5432 1012 34))"
+    },
+    {
+      "id": "ord-7698",
+      "customerId": "cust-1",
+      "customerName": "Murat Yılmaz (Karadeniz Hırdavat Tic. Ltd. Şti.)",
+      "customerCategory": "Bayi",
+      "items": [
+        {
+          "productId": "prod-437574",
+          "productTitle": "1",
+          "quantity": 1,
+          "price": 27
+        },
+        {
+          "productId": "prod-525919",
+          "productTitle": "sanane",
+          "quantity": 1,
+          "price": 9.9
+        },
+        {
+          "productId": "prod-488336",
+          "productTitle": "dxzcz",
+          "quantity": 1,
+          "price": 288.90000000000003
+        }
+      ],
+      "total": 325.8,
+      "status": "Beklemede",
+      "date": "2026-06-07T21:26:12.733Z",
+      "trackingNumber": "EXP-329581",
+      "notes": "Banka Havalesi / EFT (Ziraat Bankası (TR12 0001 0000 9876 5432 1012 34))"
+    },
+    {
+      "id": "ord-2952",
+      "customerId": "cust-1",
+      "customerName": "Murat Yılmaz (Karadeniz Hırdavat Tic. Ltd. Şti.)",
+      "customerCategory": "Bayi",
+      "items": [
+        {
+          "productId": "prod-437574",
+          "productTitle": "1",
+          "quantity": 1,
+          "price": 27
+        },
+        {
+          "productId": "prod-525919",
+          "productTitle": "sanane",
+          "quantity": 1,
+          "price": 9.9
+        },
+        {
+          "productId": "prod-488336",
+          "productTitle": "dxzcz",
+          "quantity": 1,
+          "price": 288.90000000000003
+        }
+      ],
+      "total": 325.8,
+      "status": "Beklemede",
+      "date": "2026-06-07T21:23:52.349Z",
+      "trackingNumber": "EXP-109399",
+      "notes": "Banka Havalesi / EFT (İş Bankası (TR56 0006 2000 1234 5678 9012 34))"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "tx-738542",
+      "type": "income",
+      "amount": 321321,
+      "description": "[E-Ticaret Sipariş Geliri] Sipariş #ord-8996 Teslim Makbuzu - khjgfk (khjgfk Şahıs Firması)",
+      "date": "2026-06-08T07:09:35.729Z",
+      "category": "Satış Geliri",
+      "accountType": "bank",
+      "accountName": "Akbank Ticari"
+    }
+  ],
+  "quotes": [],
+  "personnel": [
+    {
+      "id": "pers-1220",
+      "name": "CEMAL GÖK",
+      "role": "Depo Sorumlusu",
+      "email": "pers-1220@firma.com",
+      "phone": "Belirtilmemiş",
+      "salary": 42503,
+      "monthlyExpense": 65000,
+      "activeAdvances": 0,
+      "leftDays": 14,
+      "itemsZimmet": [
+        "1x MATKAP",
+        "1x HAİS PRO FEMKA"
+      ],
+      "zimmetDetailed": [
+        {
+          "id": "zim-1628",
+          "itemName": "MATKAP",
+          "quantity": 1,
+          "givenDate": "2026-06-07",
+          "hasDeficit": false,
+          "deficitQuantity": 0,
+          "notes": ""
+        },
+        {
+          "id": "zim-6411",
+          "itemName": "HAİS PRO FEMKA",
+          "quantity": 1,
+          "givenDate": "2026-06-07",
+          "hasDeficit": false,
+          "deficitQuantity": 0,
+          "notes": ""
+        }
+      ],
+      "performanceScore": 85,
+      "activities": [
+        "Personel ilk giriş sicil tescili gerçekleştirildi."
+      ]
+    },
+    {
+      "id": "pers-7267",
+      "name": "nizam",
+      "role": "Satış Temsilcisi",
+      "email": "pers-7267@firma.com",
+      "phone": "Belirtilmemiş",
+      "salary": 42503,
+      "monthlyExpense": 65000,
+      "activeAdvances": 0,
+      "leftDays": 14,
+      "itemsZimmet": [
+        "1x tornavida"
+      ],
+      "zimmetDetailed": [
+        {
+          "id": "zim-6889",
+          "itemName": "tornavida",
+          "quantity": 1,
+          "givenDate": "2026-06-08",
+          "hasDeficit": false,
+          "deficitQuantity": 0,
+          "notes": "tornavida"
+        }
+      ],
+      "performanceScore": 85,
+      "activities": [
+        "Personel ilk giriş sicil tescili gerçekleştirildi."
+      ]
+    }
+  ],
+  "backupHistory": [
+    {
+      "version": "v1.0.1",
+      "timestamp": "2026-06-08T07:24:59.999Z",
+      "stats": {
+        "products": 1,
+        "customers": 5,
+        "orders": 4,
+        "transactions": 1
+      }
+    }
+  ],
+  "checks": [],
+  "auditLogs": [
+    "[10:10:56] \"nizam\" adlı yeni personel sicil kadrosu açıldı.",
+    "[10:09:21] Giriş başarılı! Hoş geldiniz.",
+    "[10:09:18] Hatalı şifre! Kalan deneme hakkınız: 4",
+    "[10:09:10] Sistemden güvenli çıkış yapıldı.",
+    "[10:08:17] [E-TİCARET KAPISI] khjgfk Şahıs Firması firmasından yeni sipariş geldi! (321.321 ₺)",
+    "[10:08:15] 3132131 sepete eklendi.",
+    "[10:08:11] Giriş başarılı! Hoş geldiniz.",
+    "[10:08:03] Sistemden güvenli çıkış yapıldı.",
+    "[10:07:39] Giriş başarılı! Hoş geldiniz.",
+    "[10:07:31] Sistemden güvenli çıkış yapıldı.",
+    "[10:06:27] Giriş başarılı! Hoş geldiniz.",
+    "[00:26:20] dxzcz sepete eklendi.",
+    "[00:26:18] 1 sepete eklendi.",
+    "[00:26:17] sanane sepete eklendi.",
+    "[00:26:12] [E-TİCARET KAPISI] Karadeniz Hırdavat Tic. Ltd. Şti. firmasından yeni sipariş geldi! (325,8 ₺)",
+    "[00:26:08] dxzcz sepete eklendi.",
+    "[00:26:06] sanane sepete eklendi.",
+    "[00:26:06] 1 sepete eklendi.",
+    "[00:23:52] [E-TİCARET KAPISI] Karadeniz Hırdavat Tic. Ltd. Şti. firmasından yeni sipariş geldi! (325,8 ₺)",
+    "[00:23:50] dxzcz sepete eklendi.",
+    "[00:23:48] sanane sepete eklendi.",
+    "[00:23:47] 1 sepete eklendi.",
+    "[00:23:44] Giriş başarılı! Hoş geldiniz.",
+    "[00:23:38] Sistemden güvenli çıkış yapıldı.",
+    "[00:22:37] Giriş başarılı! Hoş geldiniz.",
+    "[00:06:02] Giriş başarılı! Hoş geldiniz.",
+    "[00:05:07] Sistemden güvenli çıkış yapıldı.",
+    "[00:04:39] Giriş başarılı! Hoş geldiniz.",
+    "[00:04:30] Sistemden güvenli çıkış yapıldı.",
+    "[23:12:30] Excel/ERP formatında 1266 adet ürün çözümlendi. Lütfen aşağıdaki listeyi onaylayın."
+  ],
+  "users": [
+    {
+      "id": "user-admin",
+      "name": "Ahmet Dal (Yönetici)",
+      "email": "dalgrup@gmail.com",
+      "phone": "0555 123 4567",
+      "passwordHash": "871526014029c32cff09026ff05a9dd8.a3d27c57e5b6040d0db0d93e24ec0e74968c33eb40748983c3732a68424264852ff925a25023226979adc278c1737de1c721111e691ecd40f0fb3412bf9cb8ff",
+      "role": "admin",
+      "status": "active",
+      "isVerified": true,
+      "createdAt": "2026-06-07T20:45:34.529Z",
+      "lastLoginAt": "2026-06-07T20:47:43.879Z"
+    },
+    {
+      "id": "user-customer",
+      "name": "khjgfk",
+      "email": "customer@dalgrup.com",
+      "phone": "0552 884 76 47",
+      "passwordHash": "66497eee048be6a020b19a2433d6ba6d.1dde7f283a8fec9e507a9e4ed49a3d33d5cb5c076589535c73bdc819fb0750f6126d332e780a24c13c040ca1375cb4ff4dc8e7f106ede037a36a31011e6c119a",
+      "role": "customer",
+      "status": "active",
+      "isVerified": true,
+      "createdAt": "2026-06-07T20:42:19.486Z",
+      "lastLoginAt": "2026-06-07T21:06:58.261Z"
+    },
+    {
+      "id": "user-891460",
+      "name": "ali arasan",
+      "email": "walat.n7001@gmail.com",
+      "phone": "05528847647",
+      "passwordHash": "4a968cebf6a2a61c03949ef724eb72c6.77d8fb45243f17ea1bc7d370ae84b5967d6e9f3ad01a0207327422d62744a2f9982096e70321bd42b401817b35f62d66b064e6963134b418a4ac34070925a32e",
+      "role": "customer",
+      "status": "active",
+      "isVerified": false,
+      "emailVerificationCode": "609711",
+      "createdAt": "2026-06-07T20:49:30.084Z"
+    },
+    {
+      "id": "user-646623",
+      "name": "ali arasan",
+      "email": "ruzgar.arasann@gmail.com",
+      "phone": "05528847647",
+      "passwordHash": "c1042e88278a7eeedfe8e30d7fdfb2b7.c7e6410e9836b551a43e80f0cb521bdb3716bef70ed7f5b4e57d6f06434d8fa17c59d6e59b8c471e6cd36019429733c20af92f34f576fd5ef3aaa7c7f2cd725a",
+      "role": "customer",
+      "status": "active",
+      "isVerified": false,
+      "emailVerificationCode": "596464",
+      "createdAt": "2026-06-07T20:50:17.698Z"
+    }
+  ]
+}
